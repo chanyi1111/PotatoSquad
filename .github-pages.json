@@ -1,0 +1,13 @@
+{
+  "config": "hugo.toml,pages.json",
+  "theme": "template",
+  "sample": "exampleSite",
+  "version": "0.167.0",
+  "slug": "hugo-theme-kiyomi-portfolio",
+  "npm": [],
+  "asset_build": [],
+  "generator": "3.1",
+  "repo": "https://github.com/chanyi1111/PotatoSquad.git",
+  "baseURL": "https://chanyi1111.github.io/PotatoSquad/",
+  "audited": true
+}
