@@ -1,21 +1,21 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://chanyi1111.github.io/PotatoSquad/'
 languageCode = 'en-us'
-title = 'Jane Doe — Software Engineer'
+title = 'Chanyi Park — just student but will be shining'
 
 
 [params]
-  firstName = "Jane"
-  lastName = "Doe"
-  tagline = "Software Engineer"
-  email = "jane.doe@example.com"
-  linkedin = "https://www.linkedin.com/in/example/"
-  location = "Remote"
+  firstName = "Chanyi"
+  lastName = "Park"
+  tagline = "student"
+  email = "cksdl610@naver.com"
+  linkedin = ""
+  location = "Jeonju, Korea"
   profileImage = "/images/profile.jpg"
   heroBackground = "/images/hero-bg.png"
   favicon = "/favicon.svg"
   ogImage = "/opengraph.jpg"
   resumeFile = "/resume.pdf"
-  description = "Jane Doe — Software Engineer building reliable systems."
+  description = "Chanyi Park — talking potato but will be shining"
 
 disableKinds = ['taxonomy', 'term']
 
