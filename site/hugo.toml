@@ -10,7 +10,7 @@ defaultContentLanguageInSubdir = false
   lastName = "Park"
   email = "cksdl610@naver.com"
   linkedin = ""
-  profileImage = "/images/profile.png"
+  profileImage = "/images/profile.svg"
   ogImage = "/opengraph.jpg"
   resumeFile = "/resume.pdf"
 
