@@ -10,3 +10,8 @@
 **/resources/_gen/
 **/.hugo_build.lock
 /.github-pages-setup-backups/
+
+# 빌드 결과물과 로컬 캐시 (배포는 Actions가 새로 빌드함)
+/site/public/
+__pycache__/
+/Claude outputs/
