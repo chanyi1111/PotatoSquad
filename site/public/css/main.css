@@ -119,10 +119,10 @@ body {
   color: hsl(var(--primary));
   border-color: hsl(var(--primary) / 0.5);
 }
-/* 라이트일 땐 달(→다크로), 다크일 땐 해(→라이트로) 아이콘 표시 */
-.theme-toggle .icon-sun { display: none; }
-:root[data-theme="dark"] .theme-toggle .icon-sun { display: block; }
-:root[data-theme="dark"] .theme-toggle .icon-moon { display: none; }
+/* 라이트일 땐 해, 다크일 땐 달 아이콘 표시 */
+.theme-toggle .icon-moon { display: none; }
+:root[data-theme="dark"] .theme-toggle .icon-moon { display: block; }
+:root[data-theme="dark"] .theme-toggle .icon-sun { display: none; }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-display);
