@@ -1,25 +1,48 @@
+```toml
 baseURL = 'https://chanyi1111.github.io/PotatoSquad/'
-languageCode = 'en-us'
-title = 'Chanyi Park — just student but will be shining'
 
+# 기본 언어 = 영어 (주소: /PotatoSquad/), 한국어는 /PotatoSquad/ko/
+defaultContentLanguage = 'en'
+defaultContentLanguageInSubdir = false
 
+# 두 언어가 같이 쓰는 값
 [params]
   firstName = "Chanyi"
   lastName = "Park"
-  tagline = "student"
   email = "cksdl610@naver.com"
   linkedin = ""
-  location = "Jeonju, Korea"
   profileImage = "/images/profile.png"
   heroBackground = "/images/hero-bg.png"
   favicon = "/favicon.svg"
   ogImage = "/opengraph.jpg"
   resumeFile = "/resume.pdf"
-  description = "Chanyi Park — talking potato but will be shining"
+
+# 언어마다 다른 값
+[languages]
+  [languages.en]
+    locale = 'en-US'
+    label = 'English'
+    weight = 1
+    title = 'Chanyi Park — just student but will be shining'
+    [languages.en.params]
+      tagline = "student"
+      location = "Jeonju, Korea"
+      description = "Chanyi Park — talking potato but will be shining"
+
+  [languages.ko]
+    locale = 'ko-KR'
+    label = '한국어'
+    weight = 2
+    title = 'Chanyi Park — 지금은 학생이지만 언젠가 빛날 사람'
+    [languages.ko.params]
+      tagline = "학생"
+      location = "전주, 대한민국"
+      description = "Chanyi Park — 말하는 감자지만 언젠가 빛날 사람"
 
 disableKinds = ['taxonomy', 'term']
 
 [module]
   [module.hugoVersion]
     extended = true
-    min = "0.128.0"
+    min = "0.158.0"
+```
