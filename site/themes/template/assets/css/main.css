@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&family=Noto+Serif+KR:wght@400;600;700&display=swap'); /* 한글 글꼴 */
 
 /* === CSS Custom Properties (matching original React theme) === */
 :root {
-  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
-  --font-display: 'Playfair Display', serif;
+  --font-sans: 'Inter', 'Noto Sans KR', system-ui, -apple-system, sans-serif; /* 영문은 Inter, 한글은 Noto Sans KR */
+  --font-display: 'Playfair Display', 'Noto Serif KR', serif; /* 제목: 영문 Playfair, 한글 Noto Serif KR */
 
   --background: 0 0% 99%;
   --foreground: 224 71% 4%;
