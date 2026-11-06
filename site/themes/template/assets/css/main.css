@@ -539,6 +539,12 @@ button {
   color: hsl(var(--primary-foreground));
   border-color: hsl(var(--primary));
 }
+/* 선택 상태를 색만이 아니라 ✓ 표시로도 구별 (P49) */
+.skill-pill.active::before {
+  content: "✓";
+  margin-right: 0.35em;
+  font-weight: 700;
+}
 
 /* Skill explanation box */
 .skill-explanation {
