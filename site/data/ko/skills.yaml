@@ -1,0 +1,20 @@
+- category: "프로그래밍 언어"
+  items:
+    - name: "C++"
+      explanation: "자료구조와 알고리즘, 시스템 프로그래밍 수업에서 사용했어요."
+    - name: "Python"
+      explanation: "수업 과제와 개인 게임 타이머 프로젝트에 사용했어요."
+
+- category: "도구"
+  items:
+    - name: "Git & GitHub"
+      explanation: "개인 프로젝트를 관리하고, GitHub Actions로 이 사이트를 배포하는 데 사용했어요."
+    - name: "Hugo"
+      explanation: "이 포트폴리오 사이트를 만들고 배포하는 데 사용했어요."
+    - name: "TypeScript"
+      explanation: "웹 프론트엔드와 Node 서비스를 만드는 데 사용했어요."
+
+- category: "관심 분야"
+  items:
+    - name: "Machine Learning"
+      explanation: "수업과 독학으로 기초를 공부하고 있어요."

@@ -1,0 +1,6 @@
+{{- /* 현재 언어의 data를 고름: data/ko/*.yaml 이 있으면 그걸, 없으면 data/*.yaml(영어)을 씀 */ -}}
+{{- $d := hugo.Data -}}
+{{- with index hugo.Data .Site.Language.Lang -}}
+  {{- $d = merge $d . -}}
+{{- end -}}
+{{- return $d -}}

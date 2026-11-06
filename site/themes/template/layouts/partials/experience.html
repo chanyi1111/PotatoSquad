@@ -1,9 +1,10 @@
+{{ $d := partial "site-data.html" . }}
 <section id="experience" class="section bg-navy">
   <div class="container" style="max-width: 64rem;">
     <div class="fade-in">
       <h2 class="section-header text-white mb-12">
         <span class="section-bar section-bar-wide"></span>
-        Experience
+        {{ i18n "experience" }}
       </h2>
 
       <div class="relative">
@@ -11,7 +12,7 @@
         <div class="timeline-line" style="display: none;" id="timeline-line"></div>
 
         <div style="display: flex; flex-direction: column; gap: 2.5rem;">
-          {{ range $idx, $exp := .Site.Data.experience }}
+          {{ range $idx, $exp := $d.experience }}
           <div class="fade-in delay-{{ add $idx 1 }}">
             <div class="flex gap-6" style="gap: 1.5rem;">
               <!-- Dot column -->
@@ -43,7 +44,7 @@
 
                   {{ with $exp.projects }}
                   <div style="margin-top: 1.5rem; padding-top: 1.25rem; border-top: 1px solid hsl(var(--border) / 0.5);">
-                    <p class="text-xs font-bold uppercase tracking-widest text-primary mb-3">Selected Work</p>
+                    <p class="text-xs font-bold uppercase tracking-widest text-primary mb-3">{{ i18n "selectedWork" }}</p>
                     <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
                       {{ range . }}
                       <div class="project-mini">
@@ -65,7 +66,7 @@
                     {{ range . }}
                     <a href="{{ .url }}" target="_blank" rel="noreferrer" class="media-mention">
                       <div class="shrink-0" style="margin-top: 0.125rem;">
-                        <span class="media-mention-badge">Media Mention</span>
+                        <span class="media-mention-badge">>{{ i18n "mediaMention" }}</span>
                       </div>
                       <div style="min-width: 0;">
                         <p class="text-xs text-muted leading-relaxed mb-2">{{ .excerpt }}</p>

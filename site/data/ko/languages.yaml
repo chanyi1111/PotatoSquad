@@ -1,0 +1,11 @@
+- name: "한국어"
+  level: "모국어"
+  percent: 100
+
+- name: "영어"
+  level: "중급"
+  percent: 60
+
+- name: "일본어"
+  level: "초급"
+  percent: 20
