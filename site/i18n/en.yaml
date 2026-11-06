@@ -42,3 +42,7 @@ backToTop: "Back to Top"
 # 다크모드 버튼 설명 (화면 낭독기용)
 themeToDark: "Switch to dark mode"
 themeToLight: "Switch to light mode"
+
+# 아이콘만 있는 버튼의 설명 (화면 낭독기용)
+openMenu: "Open menu"
+contactButton: "Contact"
