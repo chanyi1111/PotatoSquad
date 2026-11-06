@@ -13,7 +13,7 @@
     - name: "Hugo"
       explanation: "Used to build and deploy this portfolio site."
     - name: "TypeScript"
-      explanation: "Used to build web frontends and Node services."
+      explanation: "Currently learning the basics of TypeScript for web development."
 - category: "Interests"
   items:
     - name: "Machine Learning"

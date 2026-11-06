@@ -12,7 +12,7 @@
     - name: "Hugo"
       explanation: "이 포트폴리오 사이트를 만들고 배포하는 데 사용했어요."
     - name: "TypeScript"
-      explanation: "웹 프론트엔드와 Node 서비스를 만드는 데 사용했어요."
+      explanation: "웹 개발을 위해 TypeScript 기초를 배우고 있어요."
 
 - category: "관심 분야"
   items:

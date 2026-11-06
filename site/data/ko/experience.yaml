@@ -1,4 +1,24 @@
 # 한국어 경력. 형식은 data/experience.yaml 과 같아요.
+- company: "개인 포트폴리오 웹사이트"
+  title: "개인 프로젝트 · 기획, 개발, 배포 전부 혼자 수행"
+  period: "2026.10 - 2026.11 · 완료 (계속 개선 중)"
+  context: "목표: Hugo와 GitHub Actions로 나를 소개하는 사이트를 직접 만들어 공개하고, 코드 수정부터 자동 배포까지 전체 흐름을 익히는 것."
+  bullets:
+    - "모든 내용을 YAML 파일로 관리하는 Kiyomi Portfolio 테마를 골라, 템플릿을 새로 짜기보다 내용과 기능에 집중했습니다."
+    - "정적 사이트라 빠르고 무료로 호스팅되며 main에 push할 때마다 자동으로 다시 배포되는 점 때문에 Hugo와 GitHub Pages를 선택했습니다."
+    - "develop 브랜치에서 작업하고 hugo server로 확인한 뒤, Pull Request로 main에 합쳤습니다."
+    - "다크모드 전환(CSS 변수 + localStorage)과 영어/한국어 전환(Hugo i18n, /ko/ 페이지)을 추가했습니다."
+    - "개발자 도구에서 없는 파일 때문에 생긴 404 요청을 찾아, 쓰지 않는 이미지 참조를 지워 해결했습니다."
+    - "Hugo 템플릿, Git 브랜치 작업, 브라우저 디버깅을 배웠습니다. 다음 목표는 키보드 접근성 개선과 프로젝트별 상세 페이지입니다."
+  projects:
+    - title: "이 웹사이트"
+      desc: "공개 사이트: chanyi1111.github.io/PotatoSquad · 소스: github.com/chanyi1111/PotatoSquad"
+      tags:
+        - "Hugo"
+        - "CSS"
+        - "JavaScript"
+        - "GitHub Actions"
+
 - company: "전북대학교"
   title: "컴퓨터인공지능학부 학부생"
   period: "2023.03 - 현재"
@@ -8,14 +28,8 @@
     - "알고리즘을 배우고 있습니다."
     - "데이터 통신을 배우고 있습니다."
   projects:
-    - title: "간단한 프로젝트"
-      desc: "나만의 간단한 포트폴리오 사이트 만들기"
+    - title: "메이플스토리 스킬 타이머"
+      desc: "스킬이 준비되면 알려 주고 화면에서 룬을 찾아내는, Python으로 만든 개인용 데스크톱 타이머입니다."
       tags:
-        - "github"
-        - "html"
-        - "vue"
-    - title: "Another Project"
-      desc: "Another optional project to show under this role."
-      tags:
-        - "TypeScript"
-        - "React"
+        - "Python"
+        - "화면 인식"

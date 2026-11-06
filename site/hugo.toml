@@ -9,12 +9,8 @@ defaultContentLanguageInSubdir = false
   firstName = "Chanyi"
   lastName = "Park"
   email = "cksdl610@naver.com"
-  linkedin = ""
-  profileImage = "/images/profile.png"
-  heroBackground = "/images/hero-bg.png"
-  favicon = "/favicon.svg"
-  ogImage = "/opengraph.jpg"
-  resumeFile = "/resume.pdf"
+  github = "https://github.com/chanyi1111"
+  profileImage = "/images/profile.svg"
 
 # 언어마다 다른 값
 [languages]

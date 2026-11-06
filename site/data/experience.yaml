@@ -1,5 +1,25 @@
 # Work experience, newest first. Each entry renders as a timeline card.
 # `context`, `projects` and `media_mentions` are optional.
+- company: "Personal Portfolio Website"
+  title: "Solo project · Planning, development, deployment"
+  period: "Oct 2026 - Nov 2026 · Completed (still improving)"
+  context: "Goal: build and publish my own introduction site with Hugo and GitHub Actions, and learn the full flow from editing code to automatic deployment."
+  bullets:
+    - "Chose the Kiyomi Portfolio theme because all content lives in YAML files, so I could focus on content and features instead of rewriting templates."
+    - "Chose Hugo + GitHub Pages because a static site is fast, free to host, and redeploys automatically on every push to main."
+    - "Worked on a develop branch, checked changes with hugo server, then merged to main through pull requests."
+    - "Added a dark mode toggle (CSS variables + localStorage) and an English/Korean switch (Hugo i18n, /ko/ page)."
+    - "Found missing-file 404 requests in DevTools and fixed them by removing unused image references."
+    - "Learned Hugo templates, Git branching, and browser debugging. Next: better keyboard accessibility and a page for each project."
+  projects:
+    - title: "This website"
+      desc: "Live site: chanyi1111.github.io/PotatoSquad · Source: github.com/chanyi1111/PotatoSquad"
+      tags:
+        - "Hugo"
+        - "CSS"
+        - "JavaScript"
+        - "GitHub Actions"
+
 - company: "JeonBuk National University"
   title: "Undergraduate Student, Computer Science & AI"
   period: "Mar 2023 - Present"
@@ -9,17 +29,11 @@
     - "Learning algorithm."
     - "Learning Data transmit."
   projects:
-    - title: "simple Project"
-      desc: "Make my simple portfolio site"
+    - title: "MapleStory Skill Timer"
+      desc: "A personal Python desktop timer that alerts me when skills are ready and detects runes on the screen."
       tags:
-        - "github"
-        - "html"
-        - "vue"
-    - title: "Another Project"
-      desc: "Another optional project to show under this role."
-      tags:
-        - "TypeScript"
-        - "React"
+        - "Python"
+        - "Screen recognition"
   # media_mentions:
   #   - publication: "Example News"
   #     article_title: "How Example Corp shipped X"
