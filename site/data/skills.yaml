@@ -1,24 +1,20 @@
 # Skills grouped by category. Each skill shows its `explanation` when clicked.
-- category: "Core Qualifications"
+- category: "Programming Languages"
   items:
-    - name: "Problem Solving"
-      explanation: "Describe how you have applied this skill in your work."
-    - name: "System Design"
-      explanation: "Describe how you have applied this skill in your work."
-    - name: "Technical Leadership"
-      explanation: "Describe how you have applied this skill in your work."
-
-- category: "Technical"
-  items:
-    - name: "Go"
-      explanation: "Used to build backend services and CLI tools."
+    - name: "C++"
+      explanation: "Used in Data structures and algorithms, and Systems Programming courses."
     - name: "Python"
-      explanation: "Used for scripting, automation and data tooling."
+      explanation: "Used for coursework assignments and personal game timer project."
+
+- category: "Tools"
+  items:
+    - name: "Git & GitHub"
+      explanation: "Used to manage personal projects and deploy this site with GitHub Actions."
+    - name: "Hugo"
+      explanation: "Used to build and deploy this portfolio site."
     - name: "TypeScript"
       explanation: "Used to build web frontends and Node services."
-    - name: "SQL"
-      explanation: "Used to query and model relational data."
-    - name: "Docker"
-      explanation: "Used to containerize and deploy applications."
-    - name: "Git"
-      explanation: "Used for version control and collaboration."
+- category: "Interests"
+  items:
+    - name: "Machine Learning"
+      explanation: "Studying the basics through coursework and self-study."
