@@ -1,7 +1,5 @@
 ---
-title: "Jane Doe — Software Engineer"
+title: "Chanyi Park — just student but will be greatest"
 ---
 
-Hi, I'm Jane. This is the About section, and it is rendered from the body of
-`content/_index.md`. Replace this text with a short introduction about yourself,
-what you do, and what you care about.
+Hi, I'm Chanyi Park. While currently a student, I am a promising candidate with high potential, striving to accomplish great things in the future. 
