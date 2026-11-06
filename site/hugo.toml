@@ -1,4 +1,3 @@
-```toml
 baseURL = 'https://chanyi1111.github.io/PotatoSquad/'
 
 # 기본 언어 = 영어 (주소: /PotatoSquad/), 한국어는 /PotatoSquad/ko/
@@ -45,4 +44,3 @@ disableKinds = ['taxonomy', 'term']
   [module.hugoVersion]
     extended = true
     min = "0.158.0"
-```
