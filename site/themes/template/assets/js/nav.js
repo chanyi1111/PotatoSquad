@@ -6,6 +6,8 @@
   var mobileBackdrop = document.getElementById('mobile-backdrop');
   var timelineLine = document.getElementById('timeline-line');
   var NAV_HEIGHT = 80;
+  // OS의 '애니메이션 줄이기' 설정이 켜져 있으면 부드러운 스크롤 대신 바로 이동
+  var reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
   // Show correct nav elements based on viewport
   function updateNavVisibility() {
@@ -57,13 +59,13 @@
   // Smooth scroll to section
   function scrollToSection(id) {
     if (id === 'top') {
-      window.scrollTo({ top: 0, behavior: 'smooth' });
+      window.scrollTo({ top: 0, behavior: reduceMotion ? 'auto' : 'smooth' });
       return;
     }
     var el = document.getElementById(id);
     if (!el) return;
     var top = el.getBoundingClientRect().top + window.scrollY - NAV_HEIGHT;
-    window.scrollTo({ top: top, behavior: 'smooth' });
+    window.scrollTo({ top: top, behavior: reduceMotion ? 'auto' : 'smooth' });
   }
 
   // Event listeners
