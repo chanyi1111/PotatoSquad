@@ -38,3 +38,7 @@ connect: "프로필 보기"
 
 allRights: "All rights reserved."
 backToTop: "맨 위로"
+
+# 다크모드 버튼 설명 (화면 낭독기용)
+themeToDark: "다크 모드로 전환"
+themeToLight: "라이트 모드로 전환"

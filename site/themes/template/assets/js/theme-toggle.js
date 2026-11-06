@@ -10,7 +10,10 @@
     root.setAttribute('data-theme', theme);
     buttons.forEach(function (btn) {
       btn.setAttribute('aria-pressed', theme === 'dark' ? 'true' : 'false');
-      btn.setAttribute('aria-label', theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode');
+      // 버튼 설명은 nav.html의 data-label-* (i18n 문구)에서 가져와 언어별로 읽히게 함
+      btn.setAttribute('aria-label', theme === 'dark'
+        ? (btn.getAttribute('data-label-light') || 'Switch to light mode')
+        : (btn.getAttribute('data-label-dark') || 'Switch to dark mode'));
     });
   }
 
