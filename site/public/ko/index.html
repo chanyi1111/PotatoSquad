@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ko-KR">
+<html lang="ko">
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
 
 <script>
@@ -53,15 +53,23 @@
 
       
       <nav class="hidden md:flex items-center gap-8" style="display: none;" id="desktop-nav">
-        <button class="nav-link" data-scroll="about">About</button>
-        <button class="nav-link" data-scroll="experience">Experience</button>
-        <button class="nav-link" data-scroll="skills">Skills</button>
-        <button class="nav-link" data-scroll="education">Education</button>
-        <button class="nav-link" data-scroll="contact">Contact</button>
+        <button class="nav-link" data-scroll="about">소개</button>
+        <button class="nav-link" data-scroll="experience">활동</button>
+        <button class="nav-link" data-scroll="skills">기술</button>
+        <button class="nav-link" data-scroll="education">학력</button>
+        <button class="nav-link" data-scroll="contact">연락처</button>
         <a href="#contact" class="btn btn-primary" style="padding: 0.5rem 1.25rem; font-size: 0.875rem; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);" data-scroll="contact">
-          Let's Talk
+          메일 보내기
         </a>
       </nav>
+      
+      
+        
+        <a href="/" class="lang-toggle" hreflang="en">한글</a>
+        
+      
+        
+      
 
       
       <button type="button" class="theme-toggle" aria-label="Toggle dark mode">
@@ -92,31 +100,31 @@
 
 
 <nav class="mobile-menu" id="mobile-menu">
-  <button class="mobile-nav-link" data-scroll="about">About</button>
-  <button class="mobile-nav-link" data-scroll="experience">Experience</button>
-  <button class="mobile-nav-link" data-scroll="skills">Skills</button>
-  <button class="mobile-nav-link" data-scroll="education">Education</button>
-  <button class="mobile-nav-link" data-scroll="contact">Contact</button>
+  <button class="mobile-nav-link" data-scroll="about">소개</button>
+  <button class="mobile-nav-link" data-scroll="experience">활동</button>
+  <button class="mobile-nav-link" data-scroll="skills">기술</button>
+  <button class="mobile-nav-link" data-scroll="education">학력</button>
+  <button class="mobile-nav-link" data-scroll="contact">연락처</button>
   <div style="margin-top: 0.5rem; margin-bottom: 0.25rem; padding: 0 0.75rem;">
-    <a href="#contact" class="btn btn-primary w-full" data-scroll="contact" style="font-size: 0.875rem;">Let's Talk</a>
+    <a href="#contact" class="btn btn-primary w-full" data-scroll="contact" style="font-size: 0.875rem;">메일 보내기</a>
   </div>
 </nav>
 
 <div id="contact-fab-popover" class="fab-popover">
-  <p class="font-semibold text-sm mb-3 text-foreground">Get in touch</p>
+  <p class="font-semibold text-sm mb-3 text-foreground">연락하기</p>
   <div style="display: flex; flex-direction: column; gap: 0.5rem;">
     <a href="mailto:cksdl610@naver.com?subject=Portfolio%20Inquiry" class="flex items-center gap-3 p-3 rounded-lg transition-colors" style="border: 1px solid hsl(var(--border)); background: hsl(var(--muted) / 0.3);">
       <svg class="icon-md text-primary" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
       <div>
-        <p class="text-xs text-muted">Email</p>
+        <p class="text-xs text-muted">이메일</p>
         <p class="text-sm font-medium text-foreground">cksdl610@naver.com</p>
       </div>
     </a>
     <a href="" target="_blank" rel="noreferrer" class="flex items-center gap-3 p-3 rounded-lg transition-colors" style="border: 1px solid hsl(var(--border)); background: hsl(var(--muted) / 0.3);">
       <svg class="icon-md text-primary" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
       <div>
-        <p class="text-xs text-muted">LinkedIn</p>
-        <p class="text-sm font-medium text-foreground">Connect</p>
+        <p class="text-xs text-muted">링크드인</p>
+        <p class="text-sm font-medium text-foreground">연결하기</p>
       </div>
     </a>
   </div>
@@ -127,7 +135,7 @@
 </button>
 <main><section id="top" class="hero">
   <div class="hero-bg">
-    <img src="/images/hero-bg.png" alt="Background">
+    <img src="/images/hero-bg.png" alt="">
   </div>
 
   <div class="container" style="max-width: 80rem;">
@@ -140,7 +148,7 @@
         </div>
 
         <h1 style="font-size: clamp(2.25rem, 5vw, 4.5rem); font-weight: 700; margin-bottom: 1.5rem;">
-          Hi, I'm <span class="text-primary italic" style="font-size: clamp(2.5rem, 5.5vw, 4.375rem);">Chanyi</span>.
+          안녕하세요, <span class="text-primary italic" style="font-size: clamp(2.5rem, 5.5vw, 4.375rem);">Chanyi</span>입니다.
         </h1>
 
         <p class="text-muted" style="font-size: clamp(1.125rem, 2vw, 1.375rem); font-weight: 300; margin-bottom: 2rem; max-width: 42rem; margin-left: auto; margin-right: auto;">
@@ -150,11 +158,11 @@
         <div class="flex flex-col gap-4 items-center" style="flex-wrap: wrap;">
           <div class="flex gap-4 items-center" style="flex-wrap: wrap; justify-content: center;">
             <a href="#experience" class="btn btn-primary btn-lg" data-scroll="experience">
-              View My Work
+              작업 보기
               <svg class="icon-md" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
             </a>
             <a href="#contact" class="btn btn-outline btn-lg" data-scroll="contact">
-              Get in Touch
+             연락하기
             </a>
           </div>
         </div>
@@ -162,11 +170,11 @@
         <div class="flex items-center justify-center gap-6 mt-10 text-muted">
           <a href="mailto:cksdl610@naver.com?subject=Portfolio%20Inquiry" class="flex items-center gap-2 transition-colors hover:text-primary">
             <svg class="icon-md" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
-            <span class="text-sm font-medium">Email</span>
+            <span class="text-sm font-medium">>이메일</span>
           </a>
           <a href="" target="_blank" rel="noreferrer" class="flex items-center gap-2 transition-colors hover:text-primary">
             <svg class="icon-md" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
-            <span class="text-sm font-medium">LinkedIn</span>
+            <span class="text-sm font-medium">>링크드인</span>
           </a>
         </div>
       </div>
@@ -181,7 +189,7 @@
 <section id="about" class="section bg-muted-30">
   <div class="container container-narrow mx-auto" style="max-width: 56rem; text-align: center;">
     <div class="fade-in">
-      <h2 class="section-header justify-center mb-8" style="font-size: 1.875rem;">About Me</h2>
+      <h2 class="section-header justify-center mb-8" style="font-size: 1.875rem;">>나는요</h2>
       <div class="text-lg text-muted leading-relaxed">
         <p>안녕하세요, Chanyi Park입니다. 지금은 학생이지만 큰 잠재력을 가진 사람으로서, 앞으로 멋진 일을 해내기 위해 꾸준히 노력하고 있습니다.</p>
 
@@ -189,12 +197,13 @@
     </div>
   </div>
 </section>
+
 <section id="experience" class="section bg-navy">
   <div class="container" style="max-width: 64rem;">
     <div class="fade-in">
       <h2 class="section-header text-white mb-12">
         <span class="section-bar section-bar-wide"></span>
-        Experience
+        걸어온 길
       </h2>
 
       <div class="relative">
@@ -213,43 +222,43 @@
               
               <div class="flex-1" style="min-width: 0; padding-bottom: 0.5rem;">
                 <div class="mb-3">
-                  <h3 class="text-lg font-bold text-white">JeonBuk National University</h3>
-                  <p class="text-sm font-medium text-white-70" style="margin-top: 0.125rem;">Undergraduate Student, Computer Science &amp; AI</p>
-                  <p class="text-xs text-white-50" style="margin-top: 0.25rem;">Mar 2023 - Present</p>
+                  <h3 class="text-lg font-bold text-white">전북대학교</h3>
+                  <p class="text-sm font-medium text-white-70" style="margin-top: 0.125rem;">컴퓨터인공지능학부 학부생</p>
+                  <p class="text-xs text-white-50" style="margin-top: 0.25rem;">2023.03 - 현재</p>
                 </div>
 
                 <div class="card p-5">
                   
-                  <p class="context-quote">It is one of Korea&#39;s national universities and has a department for studying computer artificial intelligence. I am currently in the second-year program here, and I am continuing to study and grow.</p>
+                  <p class="context-quote">국내 국립대학교 중 하나로, 컴퓨터와 인공지능을 공부하는 학부가 있습니다. 현재 2학년 과정에 재학 중이며 꾸준히 공부하고 성장하고 있습니다.</p>
                   
 
                   <ul style="list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 0.5rem;">
                     
                     <li class="flex items-start gap-3">
                       <svg class="icon-sm shrink-0" style="margin-top: 0.125rem; color: hsl(var(--primary) / 0.6);" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
-                      <span class="text-sm text-muted leading-relaxed">Learning Computer achitecture.</span>
+                      <span class="text-sm text-muted leading-relaxed">컴퓨터 구조를 배우고 있습니다.</span>
                     </li>
                     
                     <li class="flex items-start gap-3">
                       <svg class="icon-sm shrink-0" style="margin-top: 0.125rem; color: hsl(var(--primary) / 0.6);" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
-                      <span class="text-sm text-muted leading-relaxed">Learning algorithm.</span>
+                      <span class="text-sm text-muted leading-relaxed">알고리즘을 배우고 있습니다.</span>
                     </li>
                     
                     <li class="flex items-start gap-3">
                       <svg class="icon-sm shrink-0" style="margin-top: 0.125rem; color: hsl(var(--primary) / 0.6);" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
-                      <span class="text-sm text-muted leading-relaxed">Learning Data transmit.</span>
+                      <span class="text-sm text-muted leading-relaxed">데이터 통신을 배우고 있습니다.</span>
                     </li>
                     
                   </ul>
 
                   
                   <div style="margin-top: 1.5rem; padding-top: 1.25rem; border-top: 1px solid hsl(var(--border) / 0.5);">
-                    <p class="text-xs font-bold uppercase tracking-widest text-primary mb-3">Selected Work</p>
+                    <p class="text-xs font-bold uppercase tracking-widest text-primary mb-3">할 줄 아는 것</p>
                     <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
                       
                       <div class="project-mini">
-                        <p class="text-sm font-semibold text-foreground mb-1">simple Project</p>
-                        <p class="text-xs text-muted leading-relaxed mb-2">Make my simple portfolio site</p>
+                        <p class="text-sm font-semibold text-foreground mb-1">간단한 프로젝트</p>
+                        <p class="text-xs text-muted leading-relaxed mb-2">나만의 간단한 포트폴리오 사이트 만들기</p>
                         <div class="flex flex-wrap gap-1">
                           
                           <span class="badge">github</span>
@@ -288,27 +297,28 @@
     </div>
   </div>
 </section>
+
 <section id="skills" class="section bg-muted-20" style="padding-top: 4rem; padding-bottom: 4rem;">
   <div class="container" style="max-width: 64rem;">
     <div class="fade-in">
       <h2 class="section-header">
         <span class="section-bar"></span>
-        Skills &amp; Languages
+        기술 및 언어
       </h2>
-      <p class="text-xs text-muted mt-3 mb-10 ml-12">Click each skill to see how it has been applied.</p>
+      <p class="text-xs text-muted mt-3 mb-10 ml-12">각 기술을 클릭하면 어디에 활용했는지 볼 수 있어요.</p>
 
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-start">
         
         <div style="display: flex; flex-direction: column; gap: 1.75rem;">
           
-          <div data-skill-category="Programming Languages">
-            <p class="text-muted font-bold uppercase tracking-widest mb-3" style="font-size: 0.625rem; opacity: 0.7;">Programming Languages</p>
+          <div data-skill-category="프로그래밍 언어">
+            <p class="text-muted font-bold uppercase tracking-widest mb-3" style="font-size: 0.625rem; opacity: 0.7;">프로그래밍 언어</p>
             <div class="flex flex-wrap gap-2">
               
               <button type="button"
                 class="skill-pill"
                 data-skill-name="C&#43;&#43;"
-                data-skill-explanation="Used in Data structures and algorithms, and Systems Programming courses."
+                data-skill-explanation="자료구조와 알고리즘, 시스템 프로그래밍 수업에서 사용했어요."
                 aria-expanded="false">
                 C&#43;&#43;
               </button>
@@ -316,7 +326,7 @@
               <button type="button"
                 class="skill-pill"
                 data-skill-name="Python"
-                data-skill-explanation="Used for coursework assignments and personal game timer project."
+                data-skill-explanation="수업 과제와 개인 게임 타이머 프로젝트에 사용했어요."
                 aria-expanded="false">
                 Python
               </button>
@@ -325,14 +335,14 @@
             <div class="skill-explanation" data-skill-explanation-box></div>
           </div>
           
-          <div data-skill-category="Tools">
-            <p class="text-muted font-bold uppercase tracking-widest mb-3" style="font-size: 0.625rem; opacity: 0.7;">Tools</p>
+          <div data-skill-category="도구">
+            <p class="text-muted font-bold uppercase tracking-widest mb-3" style="font-size: 0.625rem; opacity: 0.7;">도구</p>
             <div class="flex flex-wrap gap-2">
               
               <button type="button"
                 class="skill-pill"
                 data-skill-name="Git &amp; GitHub"
-                data-skill-explanation="Used to manage personal projects and deploy this site with GitHub Actions."
+                data-skill-explanation="개인 프로젝트를 관리하고, GitHub Actions로 이 사이트를 배포하는 데 사용했어요."
                 aria-expanded="false">
                 Git &amp; GitHub
               </button>
@@ -340,7 +350,7 @@
               <button type="button"
                 class="skill-pill"
                 data-skill-name="Hugo"
-                data-skill-explanation="Used to build and deploy this portfolio site."
+                data-skill-explanation="이 포트폴리오 사이트를 만들고 배포하는 데 사용했어요."
                 aria-expanded="false">
                 Hugo
               </button>
@@ -348,7 +358,7 @@
               <button type="button"
                 class="skill-pill"
                 data-skill-name="TypeScript"
-                data-skill-explanation="Used to build web frontends and Node services."
+                data-skill-explanation="웹 프론트엔드와 Node 서비스를 만드는 데 사용했어요."
                 aria-expanded="false">
                 TypeScript
               </button>
@@ -357,14 +367,14 @@
             <div class="skill-explanation" data-skill-explanation-box></div>
           </div>
           
-          <div data-skill-category="Interests">
-            <p class="text-muted font-bold uppercase tracking-widest mb-3" style="font-size: 0.625rem; opacity: 0.7;">Interests</p>
+          <div data-skill-category="관심 분야">
+            <p class="text-muted font-bold uppercase tracking-widest mb-3" style="font-size: 0.625rem; opacity: 0.7;">관심 분야</p>
             <div class="flex flex-wrap gap-2">
               
               <button type="button"
                 class="skill-pill"
                 data-skill-name="Machine Learning"
-                data-skill-explanation="Studying the basics through coursework and self-study."
+                data-skill-explanation="수업과 독학으로 기초를 공부하고 있어요."
                 aria-expanded="false">
                 Machine Learning
               </button>
@@ -377,13 +387,13 @@
 
         
         <div>
-          <p class="text-muted font-bold uppercase tracking-widest mb-6" style="font-size: 0.625rem; opacity: 0.7;">Language Proficiency</p>
+          <p class="text-muted font-bold uppercase tracking-widest mb-6" style="font-size: 0.625rem; opacity: 0.7;">언어 능력</p>
           <div style="display: flex; flex-direction: column; gap: 1.25rem;">
             
             <div class="fade-in">
               <div class="flex items-center justify-between mb-2">
-                <span class="text-sm font-semibold text-foreground">Korean</span>
-                <span class="text-primary font-medium tracking-wide" style="font-size: 0.6875rem; opacity: 0.7;">Native</span>
+                <span class="text-sm font-semibold text-foreground">한국어</span>
+                <span class="text-primary font-medium tracking-wide" style="font-size: 0.6875rem; opacity: 0.7;">모국어</span>
               </div>
               <div class="progress-bar">
                 <div class="progress-bar-fill" style="width: 100%;"></div>
@@ -392,8 +402,8 @@
             
             <div class="fade-in">
               <div class="flex items-center justify-between mb-2">
-                <span class="text-sm font-semibold text-foreground">English</span>
-                <span class="text-primary font-medium tracking-wide" style="font-size: 0.6875rem; opacity: 0.7;">Intermediate</span>
+                <span class="text-sm font-semibold text-foreground">영어</span>
+                <span class="text-primary font-medium tracking-wide" style="font-size: 0.6875rem; opacity: 0.7;">중급</span>
               </div>
               <div class="progress-bar">
                 <div class="progress-bar-fill" style="width: 60%;"></div>
@@ -402,8 +412,8 @@
             
             <div class="fade-in">
               <div class="flex items-center justify-between mb-2">
-                <span class="text-sm font-semibold text-foreground">Japanese</span>
-                <span class="text-primary font-medium tracking-wide" style="font-size: 0.6875rem; opacity: 0.7;">Elementary</span>
+                <span class="text-sm font-semibold text-foreground">일본어</span>
+                <span class="text-primary font-medium tracking-wide" style="font-size: 0.6875rem; opacity: 0.7;">초급</span>
               </div>
               <div class="progress-bar">
                 <div class="progress-bar-fill" style="width: 20%;"></div>
@@ -416,6 +426,7 @@
     </div>
   </div>
 </section>
+
 <section id="education" class="section bg-background" style="border-top: 1px solid hsl(var(--border) / 0.4);">
   <div class="container" style="max-width: 80rem;">
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-16">
@@ -424,31 +435,31 @@
       <div class="fade-in">
         <h2 class="section-header mb-10">
           <span class="section-bar"></span>
-          Education
+          학력
         </h2>
         <div style="display: flex; flex-direction: column; gap: 1.5rem;">
           
           <div class="card p-6 border-l-4" style="border-left: 4px solid hsl(var(--primary));">
             <div style="display: flex; flex-direction: column; gap: 0.5rem; margin-bottom: 0.5rem;">
               <div style="display: flex; flex-wrap: wrap; align-items: flex-start; justify-content: space-between; gap: 0.5rem;">
-                <h3 class="font-bold text-lg">BSc in Computer Science and Artificial Intelligence</h3>
+                <h3 class="font-bold text-lg">컴퓨터인공지능학 학사</h3>
                 <span class="text-sm font-semibold text-primary" style="white-space: nowrap; background-color: hsl(var(--primary) / 0.05); padding: 0.25rem 0.5rem; border-radius: 0.25rem;">
                   2028
                 </span>
               </div>
-              <p class="text-muted">JeonBuk National University</p>
+              <p class="text-muted">전북대학교</p>
             </div>
           </div>
           
           <div class="card p-6 border-l-4" style="border-left: 4px solid hsl(var(--primary));">
             <div style="display: flex; flex-direction: column; gap: 0.5rem; margin-bottom: 0.5rem;">
               <div style="display: flex; flex-wrap: wrap; align-items: flex-start; justify-content: space-between; gap: 0.5rem;">
-                <h3 class="font-bold text-lg">High School Diploma</h3>
+                <h3 class="font-bold text-lg">고등학교 졸업</h3>
                 <span class="text-sm font-semibold text-primary" style="white-space: nowrap; background-color: hsl(var(--primary) / 0.05); padding: 0.25rem 0.5rem; border-radius: 0.25rem;">
                   2022
                 </span>
               </div>
-              <p class="text-muted">yanghyeon High School</p>
+              <p class="text-muted">양현고등학교</p>
             </div>
           </div>
           
@@ -459,7 +470,7 @@
       <div class="fade-in delay-2">
         <h2 class="section-header mb-10">
           <span class="section-bar"></span>
-          Certifications
+          자격증
         </h2>
         <div style="display: flex; flex-direction: column; gap: 2rem;">
           
@@ -469,7 +480,7 @@
             <ul style="list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 0.75rem;">
               
               <li class="text-muted text-sm" style="background-color: hsl(var(--muted) / 0.4); padding: 0.75rem; border-radius: 0.5rem; border: 1px solid hsl(var(--border) / 0.5);">
-                driver&#39;s license
+                운전면허
               </li>
               
             </ul>
@@ -481,11 +492,11 @@
             <ul style="list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 0.75rem;">
               
               <li class="text-muted text-sm" style="background-color: hsl(var(--muted) / 0.4); padding: 0.75rem; border-radius: 0.5rem; border: 1px solid hsl(var(--border) / 0.5);">
-                league of legends gold
+                리그 오브 레전드 골드
               </li>
               
               <li class="text-muted text-sm" style="background-color: hsl(var(--muted) / 0.4); padding: 0.75rem; border-radius: 0.5rem; border: 1px solid hsl(var(--border) / 0.5);">
-                valorant gold
+                발로란트 골드
               </li>
               
             </ul>
@@ -500,12 +511,12 @@
 <section id="contact" class="section bg-navy">
   <div class="container container-xs mx-auto" style="max-width: 42rem; text-align: center;">
     <div class="fade-in">
-      <h2 class="text-white font-display font-bold mb-5" style="font-size: clamp(2.25rem, 4vw, 3rem);">Let's get in contact</h2>
+      <h2 class="text-white font-display font-bold mb-5" style="font-size: clamp(2.25rem, 4vw, 3rem);">연락해 주세요</h2>
       <p class="text-lg text-white-70 leading-relaxed mb-3">
-        Looking for a cyber security researcher? Let's get in contact.
+        성장하는 컴퓨터인공지능 전공 학생을 찾고 계신가요? 편하게 연락 주세요.
       </p>
       <p class="text-base font-medium text-white-60 mb-12">
-        The best way to reach me is via email or LinkedIn. Feel free to reach out to me for any inquiries or opportunities.
+        이메일이나 링크드인으로 연락 주시는 게 가장 빨라요. 문의나 제안은 언제든 환영합니다.
       </p>
 
       <div style="display: flex; flex-direction: column; gap: 1rem; text-align: left; margin-bottom: 2.5rem;">
@@ -514,7 +525,7 @@
             <svg class="icon-md" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
           </div>
           <div>
-            <p class="text-sm font-medium text-white-50">Email</p>
+            <p class="text-sm font-medium text-white-50">이메일</p>
             <p class="font-semibold text-white">cksdl610@naver.com</p>
           </div>
         </a>
@@ -524,7 +535,7 @@
             <svg class="icon-md" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
           </div>
           <div>
-            <p class="text-sm font-medium text-white-50">LinkedIn</p>
+            <p class="text-sm font-medium text-white-50">링크드인</p>
             <p class="font-semibold text-white flex items-center gap-2">
               
               <svg style="width: 0.875rem; height: 0.875rem;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
@@ -535,7 +546,7 @@
 
       <a href="/resume.pdf" download="Chanyi_Park_Resume.pdf" class="inline-flex items-center gap-2 text-sm font-medium text-white-70 transition-colors" style="border: 1px solid rgba(255,255,255,0.2); border-radius: 9999px; padding: 0.625rem 1.25rem;">
         <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
-        Download Resume
+        이력서 다운로드
       </a>
     </div>
   </div>
@@ -546,7 +557,7 @@
       &copy; 2026 Chanyi Park. All rights reserved.
     </p>
     <a href="#top" class="text-sm transition-colors" style="opacity: 0.8;" data-scroll="top">
-      Back to Top
+      맨 위로
     </a>
   </div>
 </footer>
