@@ -11,7 +11,6 @@ defaultContentLanguageInSubdir = false
   email = "cksdl610@naver.com"
   linkedin = ""
   profileImage = "/images/profile.png"
-  heroBackground = "/images/hero-bg.png"
   favicon = "/favicon.svg"
   ogImage = "/opengraph.jpg"
   resumeFile = "/resume.pdf"
