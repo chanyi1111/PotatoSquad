@@ -1,0 +1,21 @@
+# 한국어 경력. 형식은 data/experience.yaml 과 같아요.
+- company: "전북대학교"
+  title: "컴퓨터인공지능학부 학부생"
+  period: "2023.03 - 현재"
+  context: "국내 국립대학교 중 하나로, 컴퓨터와 인공지능을 공부하는 학부가 있습니다. 현재 2학년 과정에 재학 중이며 꾸준히 공부하고 성장하고 있습니다."
+  bullets:
+    - "컴퓨터 구조를 배우고 있습니다."
+    - "알고리즘을 배우고 있습니다."
+    - "데이터 통신을 배우고 있습니다."
+  projects:
+    - title: "간단한 프로젝트"
+      desc: "나만의 간단한 포트폴리오 사이트 만들기"
+      tags:
+        - "github"
+        - "html"
+        - "vue"
+    - title: "Another Project"
+      desc: "Another optional project to show under this role."
+      tags:
+        - "TypeScript"
+        - "React"
