@@ -770,12 +770,14 @@ button {
   opacity: 0;
   transform: translateY(8px) scale(0.95);
   pointer-events: none;
+  visibility: hidden; /* 닫혀 있을 때 Tab 초점이 안 보이는 링크로 가지 않게 함 */
   transition: all 0.2s ease;
 }
 .fab-popover.open {
   opacity: 1;
   transform: translateY(0) scale(1);
   pointer-events: auto;
+  visibility: visible;
 }
 
 /* Navbar */
